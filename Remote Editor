@@ -1,0 +1,12 @@
+--Data Base Remote Node
+ImportNetWork
+
+If Network.Down
+Run 
+script.error
+Else
+  Create New DataBaseNode
+  Add User.Name To List 01 
+  Text -- Optinal 
+  End
+    End))
